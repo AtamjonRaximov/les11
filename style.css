@@ -1,0 +1,76 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  border: solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 50vh;
+  grid-template-areas:
+    "bir ikki ikki"
+    "uch ikki ikki"
+    "tort besh olti"
+    "yetti yetti olti"
+    "yetti yetti olti";
+  gap: 10px;
+}
+.child {
+  border: solid;
+}
+.child2 {
+  z-index: 50px;
+  background-color: aqua;
+  align-items: center;
+  justify-items: center;
+}
+.child1 {
+  border: solid;
+  grid-area: bir;
+  background-color: rgb(81, 96, 96);
+  align-items: center;
+  justify-items: center;
+}
+.child2 {
+  border: solid;
+  grid-area: ikki;
+  background-color: rgb(22, 190, 100);
+  align-items: center;
+  justify-items: center;
+}
+.child3 {
+  border: solid;
+  grid-area: uch;
+  background-color: rgb(128, 189, 13);
+  align-items: center;
+  justify-items: center;
+}
+.child4 {
+  border: solid;
+  grid-area: tort;
+  background-color: rgb(211, 124, 11);
+  align-items: center;
+  justify-items: center;
+}
+.child5 {
+  border: solid;
+  grid-area: besh;
+  background-color: rgb(200, 169, 132);
+  align-items: center;
+  justify-items: center;
+}
+.child6 {
+  border: solid;
+  grid-area: olti;
+  background-color: rgb(80, 35, 143);
+  align-items: center;
+  justify-items: center;
+}
+.child7 {
+  border: solid;
+  grid-area: yetti;
+  background-color: rgb(133, 25, 155);
+  align-items: center;
+  justify-items: center;
+}
